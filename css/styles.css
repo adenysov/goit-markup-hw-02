@@ -3,3 +3,11 @@ body {
   color: #2e2f42;
   background-color: #ffffff;
 }
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
