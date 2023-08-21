@@ -11,13 +11,6 @@ ul {
   list-style-type: none;
 }
 
-h2 {
-  text-align: center;
-  size: 36px;
-  font-weight: 700;
-  line-height: 40px;
-}
-
 .header {
   font-family: Roboto;
   font-weight: 400;
