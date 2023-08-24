@@ -22,7 +22,7 @@ button:hover {
   list-style-type: none;
 }
 
-link {
+.link {
   text-decoration: none;
 }
 
@@ -67,7 +67,7 @@ link {
 }
 /*Footer styles*/
 .footer {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   color: #f4f4fd;
   background-color: #2e2f42;
 }
