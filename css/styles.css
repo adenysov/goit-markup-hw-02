@@ -1,23 +1,30 @@
+/*Base styles*/
 body {
   font-family: "Roboto", sans-serif;
   color: #2e2f42;
+  background-color: #ffffff;
+}
+
+/*Reset styles*/
+.list {
+  list-style-type: none;
 }
 
 a {
   text-decoration: none;
 }
 
-ul {
-  list-style-type: none;
+/*Header styles*/
+.header-link {
+  color: #434455;
 }
 
-.header {
-  font-family: Roboto;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 2%;
-  color: #2e2f42;
+.header-link:hover {
+  color: #4d5ae5;
+}
+
+.header-link:focus {
+  color: #4d5ae5;
 }
 
 .logo {
@@ -31,6 +38,7 @@ ul {
   color: #4d5ae5;
 }
 
+/*Footer styles*/
 .footer {
   font-family: Raleway;
   color: #f4f4fd;
@@ -50,8 +58,7 @@ ul {
   color: #4d5ae5;
 }
 
-.footer-description {
-  font-family: Robota;
+.footer-text {
   color: #f4f4fd;
   font-weight: 400;
   font-size: 16px;
@@ -59,6 +66,6 @@ ul {
   letter-spacing: 2%;
 }
 
-.button-list {
-  background-color: black;
+.button-item:hover {
+  cursor: pointer;
 }
