@@ -69,25 +69,30 @@ body {
   --main-button-background-color: #4d5ae5;
 }
 
-.logo,
-.logo-hdr,
+.logo {
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
+}
+
+.logo-hdr {
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #2e2f42;
+}
+
 .logo-ftr {
   text-transform: uppercase;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-}
-
-.logo {
-  color: #4d5ae5;
-}
-
-.logo-hdr {
-  color: #2e2f42;
-}
-
-.logo-ftr {
   color: #f4f4fd;
 }
 
