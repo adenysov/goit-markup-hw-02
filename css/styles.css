@@ -87,17 +87,15 @@ body {
 
 .team {
   background-color: #f4f4fd;
-  line-height: 1.1;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: var(--secondary-text-color-dark);
 }
 
 .team-title {
   font-size: 36px;
   line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
   letter-spacing: 0.02em;
+  color: var(--secondary-text-color-dark);
 }
 
 .team-list {
