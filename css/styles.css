@@ -29,7 +29,8 @@ body {
 
 .header-link:focus,
 .header-link:hover {
-  color: #4d5ae5;
+  color: #404bbf;
+  /*color: #4d5ae5;*/
 }
 
 .address-link {
