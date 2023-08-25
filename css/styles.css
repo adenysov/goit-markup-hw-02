@@ -64,6 +64,17 @@ body {
   text-align: center;
 }
 
+.overview-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.overview-text {
+  line-height: 1.5;
+  letter-spacing: 0.02;
+}
 .footer {
   font-family: var(--secondary-font);
 }
