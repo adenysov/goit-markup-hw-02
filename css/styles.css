@@ -76,9 +76,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.footer {
-  font-family: var(--secondary-font);
-}
 
 .doing-title {
   font-size: 36px;
@@ -103,6 +100,23 @@ body {
   letter-spacing: 0.02em;
 }
 
+.team-list {
+  background-color: var(--main-background-color-light);
+}
+
+.team-list-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.team-list-text {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
+}
+
 :root {
   --main-font: Roboto, sans-serif;
   --secondary-font: Raleway, sans-serif;
@@ -111,6 +125,7 @@ body {
   --main-text-color-light: #ffffff;
   --secondary-text-color-dark: #2e2f42;
   --main-button-background-color: #4d5ae5;
+  --list-text-color: #f4f4fd;
 }
 
 .logo {
@@ -157,6 +172,13 @@ body {
 }
 
 .footer {
+  font-family: var(--secondary-font);
   background-color: var(--secondary-background-color-dark);
   color: var(--main-text-color-light);
+}
+
+.footer-text {
+  line-height: 1.5;
+  color: var(--list-text-color);
+  letter-spacing: 0.02em;
 }
