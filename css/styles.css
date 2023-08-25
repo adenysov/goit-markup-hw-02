@@ -56,7 +56,7 @@ body {
   color: var(--main-text-color-light);
 }
 
-.hero > .hero-title {
+.hero-title {
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
