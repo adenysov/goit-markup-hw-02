@@ -13,6 +13,7 @@ body {
 
 .list {
   list-style: none;
+  font-style: normal;
 }
 
 .header {
