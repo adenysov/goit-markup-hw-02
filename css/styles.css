@@ -69,11 +69,12 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: var(--secondary-text-color-dark);
 }
 
 .overview-text {
   line-height: 1.5;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
 }
 .footer {
   font-family: var(--secondary-font);
@@ -85,6 +86,7 @@ body {
   --main-background-color-light: #ffffff;
   --secondary-background-color-dark: #2e2f42;
   --main-text-color-light: #ffffff;
+  --secondary-text-color-dark: #2e2f42;
   --main-button-background-color: #4d5ae5;
 }
 
