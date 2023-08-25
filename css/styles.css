@@ -33,6 +33,10 @@ body {
   /*color: #4d5ae5;*/
 }
 
+.address {
+  font-style: normal;
+}
+
 .address-link {
   color: #434455;
   font-weight: 400;
