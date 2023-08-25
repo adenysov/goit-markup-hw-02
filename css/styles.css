@@ -80,6 +80,13 @@ body {
   font-family: var(--secondary-font);
 }
 
+.doing-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--secondary-text-color-dark);
+}
 :root {
   --main-font: Roboto, sans-serif;
   --secondary-font: Raleway, sans-serif;
