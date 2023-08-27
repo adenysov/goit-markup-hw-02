@@ -126,6 +126,7 @@ body {
   --secondary-text-color-dark: #2e2f42;
   --main-button-background-color: #4d5ae5;
   --list-text-color: #f4f4fd;
+  --button-seconday-background-color: #4f4ffd;
 }
 
 .logo {
@@ -155,9 +156,10 @@ body {
   color: #f4f4fd;
 }
 
-.btn {
+.btn-main {
   background-color: var(--main-button-background-color);
   color: var(--main-text-color-light);
+
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -165,12 +167,26 @@ body {
   letter-spacing: 0.04em;
 }
 
-.btn:focus,
-.btn:hover {
+.btn-secondary {
+  background-color: var(--button-seconday-background-color);
+  color: #4d5ae5;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.btn-main:focus,
+.btn-main:hover {
   cursor: pointer;
   background-color: #404bbf;
 }
 
+.btn-secondary:focus,
+.btn-secondary:hover {
+  cursor: pointer;
+}
 .footer {
   font-family: var(--secondary-font);
   background-color: var(--secondary-background-color-dark);
