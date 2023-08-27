@@ -126,7 +126,7 @@ body {
   --secondary-text-color-dark: #2e2f42;
   --main-button-background-color: #4d5ae5;
   --list-text-color: #f4f4fd;
-  --button-seconday-background-color: #4f4ffd;
+  --button-seconday-background-color: #f4f4fd;
 }
 
 .logo {
@@ -187,7 +187,7 @@ body {
 .btn-secondary:hover {
   cursor: pointer;
   color: #ffffff;
-  background-color: #404bf;
+  background-color: #404bbf;
 }
 .footer {
   font-family: var(--secondary-font);
