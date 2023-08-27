@@ -117,7 +117,7 @@ body {
   letter-spacing: 0.02em;
 }
 
-.project-card-title {
+.project-card-list-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -125,7 +125,7 @@ body {
   color: var(--secondary-background-color-dark);
 }
 
-.project-card-text {
+.project-card-list-text {
   font-size: 16px;
   line-height: 1.5;
   color: var(--paragraph-text-color);
