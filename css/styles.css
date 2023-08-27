@@ -186,6 +186,8 @@ body {
 .btn-secondary:focus,
 .btn-secondary:hover {
   cursor: pointer;
+  color: #ffffff;
+  background-color: #404bf;
 }
 .footer {
   font-family: var(--secondary-font);
