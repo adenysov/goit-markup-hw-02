@@ -117,6 +117,21 @@ body {
   letter-spacing: 0.02em;
 }
 
+.project-card-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--secondary-background-color-dark);
+}
+
+.project-card-text {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--paragraph-text-color);
+  letter-spacing: 0.02em;
+}
+
 :root {
   --main-font: Roboto, sans-serif;
   --secondary-font: Raleway, sans-serif;
@@ -127,6 +142,7 @@ body {
   --main-button-background-color: #4d5ae5;
   --list-text-color: #f4f4fd;
   --button-seconday-background-color: #f4f4fd;
+  --paragraph-text-color: #434455;
 }
 
 .logo {
